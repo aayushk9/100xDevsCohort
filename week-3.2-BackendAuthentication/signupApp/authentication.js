@@ -83,6 +83,3 @@ app.get('/users', (req, res)=> {
  - user gets back a token after the signin request
  - user sends back tokens in all authenticated requests
   */
-
-
- // VAhfw3Bik4MChbIu
