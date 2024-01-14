@@ -1,8 +1,9 @@
 import { useContext, useState } from "react"
-import { CountContext } from "./Context";
+import { CountContext } from "./context";
 
 
-function App2() {
+// counter app using contextAPI to avoid prop drilling
+export default function App2() {
   const [count, setCount] = useState(0);
   
   // teleporting this state to countRenderer and Buttons via context
@@ -42,5 +43,3 @@ function Buttons({setCount}) {
     }}>Decrease</button>
   </div>
 }
-
-export default App2
