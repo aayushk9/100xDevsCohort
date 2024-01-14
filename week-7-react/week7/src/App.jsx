@@ -5,6 +5,7 @@ const Dashboard = lazy(() => import('./Dashboard'))
 const  Landing = lazy(() => import('./Landing'))
 import { Suspense, lazy } from 'react'
 
+// Routing
 
 function App() {
   
@@ -39,4 +40,3 @@ function Appbar() {
 }
 
 export default App
-
